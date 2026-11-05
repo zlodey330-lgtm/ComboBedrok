@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "bedrockcombo",
+  "version": "${version}",
+  "name": "Bedrock Combo",
+  "description": "Комба как в Minecraft Bedrock (PE): удар подбрасывает цель вверх, и пока попадаешь — она остаётся в воздухе. Всё настраивается.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.bedrockcombo.BedrockCombo"]
+  },
+  "mixins": ["bedrockcombo.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
